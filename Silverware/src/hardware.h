@@ -131,8 +131,8 @@
 // MOSI , CLK , SS - outputs , MISO input
 
 
-#define SPI_MOSI_PIN GPIO_Pin_0
-#define SPI_MOSI_PORT GPIOF
+#define SPI_SS_PIN GPIO_Pin_0 
+#define SPI_SS_PORT GPIOF
 
 //#define SPI_MISO_PIN GPIO_Pin_15
 //#define SPI_MISO_PORT GPIOA
@@ -140,8 +140,8 @@
 #define SPI_CLK_PIN GPIO_Pin_1
 #define SPI_CLK_PORT GPIOF
 
-#define SPI_SS_PIN GPIO_Pin_0
-#define SPI_SS_PORT GPIOA
+#define SPI_MOSI_PIN GPIO_Pin_0
+#define SPI_MOSI_PORT GPIOA    
 
 //spi type
 #define SOFTSPI_3WIRE
@@ -203,14 +203,14 @@
 //#define MOTOR0_PIN_PA3
 //#define MOTOR0_PIN_PA4
 //#define MOTOR0_PIN_PA5
-#define MOTOR0_PIN_PA6
+//#define MOTOR0_PIN_PA6
 //#define MOTOR0_PIN_PA7
 //#define MOTOR0_PIN_PA8
 //#define MOTOR0_PIN_PA9
 //#define MOTOR0_PIN_PA10
 //#define MOTOR0_PIN_PA11
 //#define MOTOR0_PIN_PB0
-//#define MOTOR0_PIN_PB1
+#define MOTOR0_PIN_PB1
 
 // front-left motor
 // motor 1 pin
@@ -239,14 +239,14 @@
 //#define MOTOR2_PIN_PA3
 //#define MOTOR2_PIN_PA4
 //#define MOTOR2_PIN_PA5
-//#define MOTOR2_PIN_PA6
+#define MOTOR2_PIN_PA6
 //#define MOTOR2_PIN_PA7
 //#define MOTOR2_PIN_PA8
 //#define MOTOR2_PIN_PA9
 //#define MOTOR2_PIN_PA10
 //#define MOTOR2_PIN_PA11
 //#define MOTOR2_PIN_PB0
-#define MOTOR2_PIN_PB1
+//#define MOTOR2_PIN_PB1
 
 // front-right motor
 // motor 3 pin
